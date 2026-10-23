@@ -1,11 +1,40 @@
 :root {
 	/*Core colors*/
-	--color-bg: #F8F5EF;
-	--color-surface: #FFFFFF;
-	--color-primary: #355747;
-	--color-text: #292D29;
-	--color-muted: #777970;
-	--color-border: #E8E3DA;
+	--color-bg: #F8F5EF; /* Main page backgrounds */
+	--color-surface: #FFFFFF; /* Cards, dialogs, and input backgrounds */
+	--color-primary: #355747; /* Primary buttons, active navigation, important links */
+	--color-text: #292D29; /* Headings, body text, and primary labels */
+	--color-muted: #777970; /* Dates, metadata, hints, and supporting text */
+	--color-border: #E8E3DA; /* Card borders, input borders, and dividers */
+	
+	/* Text colors */
+	--color-text-secondary: #555B54; /* Secondary paragraphs, descriptions */
+	--color-text-muted: #777970; /* Timestamps, placeholders, subtle metadata */
+	--color-text-on-primary: #FFFFFF; /* Text and icons on primary-colored buttons */
+	--color-text-on-error: #FFFFFF; /* Text on error-colored backgrounds */
+	
+	/* Interactive colors */
+	--color-primary-hover: #294637; /* Hover state for primary buttons and links */
+	--color-primary-active: #20382C; /* Pressed state for primary buttons */
+	--color-primary-subtle: #E8EEE9; /* Selected navigation, subtle active backgrounds */
+	--color-focus-ring: #64866F; /* Keyboard focus outlines */
+	--color-disabled-bg: #EAE8E2; /* Disabled buttons and controls */
+	--color-disabled-text: #777970; /* Text on disabled controls */
+	
+	/* Surface colors */
+	--color-surface-hover: #F5F3EE; /* Hover state for cards, rows, and menu items */
+	--color-surface-selected: #E8EEE9; /* Selected note or navigation item */
+	--color-overlay: rgb(41 45 41 / 40%); /* Backdrop behind modals */
+	
+	/* Form and border states */
+	--color-border-hover: #C8CFC6; /* Hovered input and card borders */
+	--color-border-focus: #355747; /* Focused input borders */
+	--color-border-error: #B33D36; /* Invalid inputs */
+	
+	/* Semantic background colors */
+	--color-success-bg: #E7F3EA; /* Success alerts and badges */
+	--color-warning-bg: #FBF0DD; /* Warning alerts and badges */
+	--color-error-bg: #F9E9E7; /* Error alerts and validation messages */
 	
 	/*Semantic Colors*/
 	--color-success: #287A50;
