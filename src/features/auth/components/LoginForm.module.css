@@ -3,6 +3,10 @@
 	flex-direction: column;
 	gap: 16px;
 	width: 40%;
+	border: 1px solid #647657;
+	border-radius: 8px;
+	padding: 1.5rem;
+	background-color: #F0EDE6;
 }
 
 .loginForm > div {
@@ -11,8 +15,15 @@
 	gap: 8px;
 }
 
+.loginForm label {
+	font-size: 1rem;
+	color: #706D64;
+}
+
 .loginForm input {
-	height: 2rem;
-	border: 1px solid black;
-	border-radius: 3px;
+	font-size: 1rem;
+	height: 2.5rem;
+	border: 1px solid #647657;
+	border-radius: 8px;
+	padding: 0.5rem;
 }

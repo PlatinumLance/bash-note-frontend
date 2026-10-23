@@ -1,0 +1,14 @@
+root {
+	/*Core colors*/
+	--color-bg: #F8F5EF;
+	--color-suface: #FFFFFF;
+	--color-primary: #355747;
+	--color-text: #292D29;
+	--color-muted: #777970;
+	--color-borde: #E8E3DA;
+	
+	/*Semantic Colors*/
+	--color-success: #287A50;
+	--color-warning: #A96513;
+	--color-error: #B33D36;
+}
