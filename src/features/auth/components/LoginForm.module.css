@@ -1,29 +1,53 @@
+.loginSection {
+	/* clamp(min, prefered, max) */
+	width: clamp(350px, 35%, 800px);
+	/* width: 35%; */
+}
+
 .loginForm {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
-	width: 40%;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
 	border: 1px solid var(--color-border);
-	border-radius: 8px;
-	padding: 1.5rem;
-	background-color: var(--color-bg);
+	border-radius: var(--radius-md);
+	padding: 5rem 2rem;
+	background-color: var(--color-surface);
+	gap: var(--spacing-6);
+}
+
+.loginForm > h1 {
+	text-align: center;
+	font-size: var(--text-3xl);
+	color: var(--color-text);
+}
+
+.loginForm > h2 {
+	text-align: center;
+	font-size: var(--text-base);
+	color: var(--color-text-muted);
 }
 
 .loginForm > div {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	justify-content: center;
+	gap: 0.5rem;
 }
 
 .loginForm label {
-	font-size: 1rem;
-	color: #706D64;
+	font-size: var(--text-sm);
+	color: var(--color-text);
+	font-weight: var(--font-weight-bold);
 }
 
 .loginForm input {
-	font-size: 1rem;
-	height: 2.5rem;
-	border: 1px solid #647657;
-	border-radius: 8px;
-	padding: 0.5rem;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: var(--text-base);
+	height: var(--input-height);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-md);
+	padding: var(--spacing-4);
 }

@@ -1,0 +1,12 @@
+.header {
+	background-color: var(--color-bg);
+}
+
+a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: var(--color-text);
+	font-size: var(--text-xl);
+	font-weight: var(--font-weight-bold);
+}

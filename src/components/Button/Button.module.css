@@ -9,5 +9,4 @@
 	background-color: var(--color-primary);
 	font-size: var(--text-lg);
 	color: var(--color-text-on-primary);
-	width: fit-content;
 }
